@@ -1,0 +1,68 @@
+.clicker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .clicker button {
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .clicker button:hover {
+    background-color: #666;
+  }
+  
+  .clicker .whole-note {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 8px solid #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .clicker .count {
+    font-size: 48px;
+    color: #333;
+  }
+  .shop-tab {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .shop {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 200px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    /* Add shop content styles here */
+  }
+  .game-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
